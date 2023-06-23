@@ -1,10 +1,17 @@
  nav{
     display: inline-flex;
  }
+
+
  h1 img{
    width: 10%;
    height: inherit;
  }
+ nav ul li{
+    display: inline;
+    margin: 2%;
+ }
+
  
  section {
     display: flex;
