@@ -1,21 +1,24 @@
- nav{
-    display: inline-flex;
- }
+header{
+   display: flex;
+   background-color: lightblue;
+   color: white;
 
-
- h1 img{
+}
+nav ul li{
+   display: inline
+}
+ 
+h1 img{
    width: 10%;
    height: inherit;
- }
- nav ul li{
-    display: inline;
-    margin: 2%;
+   
  }
 
  
  section {
     display: flex;
     flex-wrap: wrap;
+   
    
  }
  section img {
