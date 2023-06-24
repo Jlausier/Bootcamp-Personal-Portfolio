@@ -1,3 +1,20 @@
+body{
+   display: flex;
+   flex-direction: column;
+   line-height: 1.5;
+}
+
+header{
+   display: flex;
+background-color: #30353d;
+color: #92CCCE;
+}
+
+header h1{
+   background-color: #92CCCE;
+   color: #30353d; 
+}
+
 
  @media only screen and (max-width: 768px) {
         display: flex-column;
