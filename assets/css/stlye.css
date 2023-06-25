@@ -43,10 +43,7 @@ nav a{
    width: 100%;
    background-size: cover;
 }
-main {
-   display: flex;
-   flex-direction: column;
-}
+
 section{
    display: flex;
    padding: 2% 2%;
@@ -59,9 +56,7 @@ h2 {
    font-size: 200%;
    text-align: end;
    padding: 0% 2% 0% 2%;
-   margin: 2%
-
-   
+   margin: 2% 2%   
 }
 
 p{
@@ -110,11 +105,12 @@ p a{
    min-height: 200px;
    border: 5px solid #92CCCE;
 }
-section{
-   display: flex;
-   flex-wrap: wrap;
-}
-
- @media screen and (max-width: 768px) {
+.images{
+        display: flex;
+       flex-wrap: wrap;
+        justify-content: space-between;
         }
-    
+
+@media screen and (max-width: 768px) {
+      }
+  
