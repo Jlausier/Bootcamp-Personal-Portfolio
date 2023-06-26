@@ -91,7 +91,8 @@ padding: 4px 4px;
    flex-wrap: wrap;
    justify-content: center;
 }
-section a{
+
+.text {
    display: flex;
    flex-direction: column;
    bottom: 20px;
