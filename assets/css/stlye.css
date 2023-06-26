@@ -6,6 +6,7 @@ body{
 }
 main{
   display: flexbox;
+  position: relative;
   flex-direction: column;
 }
 header{
@@ -49,11 +50,14 @@ nav a{
 
 section{
    display: flex;
+   position: relative;
    padding: 2% 2%;
    font-family: 'Lucida Sans', sans-serif;
 }
+
 h2 {
-   justify-content: left;
+   display: flex;
+   flex-direction: column;
    border-right: 5px solid #445877;
    color: #445877;
    font-size: 200%;
@@ -62,11 +66,6 @@ h2 {
    margin: 2% 2%   
 }
 
-p{
-   display: flex;
-   padding: 0% 2%
-   
-}
 figure a{
 position: absolute;
 bottom: 20px;
@@ -78,35 +77,39 @@ padding: 4px 4px;
 }
 
 .surf{
-   position: relative;
+   margin: 2%;
    background-image: url(../images/02-portfolio-4.jpg);
    background-size: cover;
   height: auto;
   width: auto;
-  min-width: 75vw;
+  min-width: 50vw;
   min-height: 400px;
   border: 5px solid #92CCCE;
 }
-
-p a{
+.container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+section a{
    display: flex;
    flex-direction: column;
-   position: absolute;
    bottom: 20px;
    left: 0px;
    padding: 5px;
    background-color: #92CCCE;
    color: #30353d;
 }
+
 .mini{
-   position: relative;
+   margin: 4%;
    background-image: url(../images/02-portfolio-1.jpg);
    background-size: cover;
    height: auto;
    width: auto;
-   min-width: 25vw;
+   min-width: 30vw;
    min-height: 200px;
-   border: 5px solid #92CCCE;
+   border: 5px solid #92CCCE; 
 }
 .images{
         display: flex;
