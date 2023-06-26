@@ -4,7 +4,10 @@ body{
    flex-direction: column;
    line-height: 1.5;
 }
-
+main{
+  display: flexbox;
+  flex-direction: column;
+}
 header{
    display: flex;
    justify-content: space-between;
