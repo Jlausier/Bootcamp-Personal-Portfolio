@@ -49,18 +49,27 @@ nav a{
 }
 
 
-h2 {
+h2{
    border-right: 5px solid #445877;
    color: #445877;
-   font-size: 200%;
-   text-align: end;
+   font-size: 5vw;
+   text-align: right;
    padding: 0% 2% 0% 2%;
-   margin: 2% 2%   
+   margin: 2% 2%; 
+   flex: 0 0 20%; 
+   line-height: 1.2;
+   
+}
+#about-me > div{
+flex: 0 0 75%;
+}
+
+#contact-me > div{
+flex: 0 0 75%;
 }
 
  .caption{
 display: inline;
-
 background-color: #92CCCE;
 color: #30353d;
 font-size: 200%;
@@ -71,18 +80,16 @@ padding: 4px 4px;
    margin: 2%;
    background-image: url(../images/02-portfolio-4.jpg);
    background-size: cover;
-  height: auto;
-  width: auto;
-  min-width: 50vw;
+  flex-basis: 100%;
   min-height: 400px;
   border: 5px solid #92CCCE;
 }
 
 .para{
    display: flex;
-   justify-content: left;
+   flex-direction: row;
+   flex-wrap: wrap;
   padding: 2% 2%;
-  align-items: left; 
 }
 
 p{
@@ -95,7 +102,7 @@ p{
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
-   width: 80%;
+   flex: 0 0 75%;
 }
 
 .text {
@@ -113,9 +120,7 @@ p{
    justify-content: space-evenly;
    background-image: url(../images/02-portfolio-1.jpg);
    background-size: cover;
-   height: auto;
-   width: auto;
-   min-width: 30vw;
+   flex-basis: 50%;
    min-height: 200px;
    border: 5px solid #92CCCE; 
 }
@@ -125,9 +130,7 @@ p{
    justify-content: space-evenly;
    background-image: url(../images/02-portfolio-2.jpg);
    background-size: cover;
-   height: auto;
-   width: auto;
-   min-width: 30vw;
+   flex-basis: 50%;
    min-height: 200px;
    border: 5px solid #92CCCE; 
 }
@@ -137,21 +140,16 @@ p{
    justify-content: space-evenly;
    background-image: url(../images/02-portfolio-3.jpg);
    background-size: cover;
-   height: auto;
-   width: auto;
-   min-width: 30vw;
+   flex-basis: 50%;
    min-height: 200px;
    border: 5px solid #92CCCE; 
 }
 
 .run{
-   margin: 4%;
    justify-content: space-evenly;
    background-image: url(../images/02-run-buddy.jpg);
    background-size: cover;
-   height: auto;
-   width: auto;
-   min-width: 30vw;
+   flex-basis: 50%;
    min-height: 200px;
    border: 5px solid #92CCCE; 
 }
