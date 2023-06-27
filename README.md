@@ -6,4 +6,4 @@ This portfolio challenge helped me create a website from scratch. Challenging al
 ## Usage
 
 ##Screenshot
-![Screenshot][assets\images\127.0.0.1_5501_index.html.png]
+![Screenshot](./assets/images/127.0.0.1_5501_index.html.png)
