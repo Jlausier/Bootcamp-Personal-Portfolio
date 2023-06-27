@@ -47,12 +47,28 @@ nav a{
    width: 100%;
    background-size: cover;
 }
+figure a{
+   display: inline-flex;
+background-color: #92CCCE;
+color: #30353d;
+font-size: 200%;
+padding: 8px 8px;
+position: relative;
+bottom: 30px;
+left: 70%;
+}
 
+figure img{
+   max-height: 200px;
+   display: inline-flex;
+   position: relative;
+   left: 50%;
+}
 
 h2{
    border-right: 5px solid #445877;
    color: #445877;
-   font-size: 5vw;
+   font-size: 250%;
    text-align: right;
    padding: 0% 2% 0% 2%;
    margin: 2% 2%; 
@@ -65,30 +81,42 @@ flex: 0 0 75%;
 }
 
 #contact-me > div{
-flex: 0 0 75%;
+align-items: center;
+font-size: 125%;
 display: inline-flex;
+flex: 0 0 70%
+
 }
 #contact-me ul li{
    display: inline-flex;
    color: #445877;
    border-bottom: 4px solid #445877;
+   padding: 0px 50px 0px 50px;
 }
 
  .caption{
-display: inline;
+display: inline-flex;
 background-color: #92CCCE;
 color: #30353d;
 font-size: 200%;
-padding: 4px 4px;
-}
+padding: 8px 8px;
+position: relative;
+top: 100px;
+ }
 
-.surf{
-   margin: 2%;
+ .captionS{
+   display: inline-flex;
+background-color: #92CCCE;
+color: #30353d;
+font-size: 200%;
+padding: 8px 8px;
+position: relative;
+top: 250px;
+ }
+
+#surf{
    background-image: url(../images/02-portfolio-4.jpg);
-   background-size: cover;
-  flex-basis: 100%;
-  min-height: 400px;
-  border: 5px solid #92CCCE;
+  
 }
 
 .para{
@@ -100,6 +128,8 @@ padding: 4px 4px;
 
 p{
    padding: 0 2%;
+   font-style: oblique;
+  text-indent: 4%;
 
 
 }
@@ -121,49 +151,60 @@ p{
    color: #30353d;
 }
 
-.LED{
-   margin: 4%;
+.Link{
+   margin: 2%;
+   background-size: cover;
+  flex-basis: 100%;
+  min-height: 400px;
+  border: 5px solid #92CCCE;
+ opacity: .5;
+}
+.Link{
+   &:hover{cursor: pointer;
+      opacity: 1;
+ 
+   }
+}
+.small{
+   margin: 2%;
+   background-size: cover;
+ flex-basis: 50%;
+ max-width: 650px;
+ min-height: 200px;
+ border: 5px solid #92CCCE;
+ opacity: .5;
+}
+.small{
+   &:hover{cursor: pointer;
+      opacity: 1;
+
+   }
+}
+
+#LED{
    background-image: url(../images/02-portfolio-1.jpg);
-   background-size: cover;
-   flex-basis: 50%;
-   min-height: 200px;
-   border: 5px solid #92CCCE; 
 }
-
-.calculator{
-   margin: 4%;
+#calculator{
    background-image: url(../images/02-portfolio-2.jpg);
-   background-size: cover;
-   flex-basis: 50%;
-   min-height: 200px;
-   border: 5px solid #92CCCE; 
 }
 
-.car{
-
-   margin: 4%;
+#car{
    background-image: url(../images/02-portfolio-3.jpg);
-   background-size: cover;
-   flex-basis: 50%;
-   min-height: 200px;
-   border: 5px solid #92CCCE; 
 }
 
-.run{
+#run{
 
    background-image: url(../images/02-run-buddy.jpg);
-   background-size: cover;
-   flex-basis: 50%;
-   min-height: 200px;
-   border: 5px solid #92CCCE; 
+   
 }
 
-.images{
-        display: flex;
-       flex-wrap: wrap;
-        justify-content: space-between;
-        }
 
+div ul li a{
+   text-decoration: none;
+}
+section div a{
+   text-decoration: none;
+}
 @media screen and (max-width: 768px) {
       }
   
