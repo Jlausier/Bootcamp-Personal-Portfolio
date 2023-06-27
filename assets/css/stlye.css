@@ -66,6 +66,12 @@ flex: 0 0 75%;
 
 #contact-me > div{
 flex: 0 0 75%;
+display: inline-flex;
+}
+#contact-me ul li{
+   display: inline-flex;
+   color: #445877;
+   border-bottom: 4px solid #445877;
 }
 
  .caption{
@@ -117,7 +123,6 @@ p{
 
 .LED{
    margin: 4%;
-   justify-content: space-evenly;
    background-image: url(../images/02-portfolio-1.jpg);
    background-size: cover;
    flex-basis: 50%;
@@ -127,7 +132,6 @@ p{
 
 .calculator{
    margin: 4%;
-   justify-content: space-evenly;
    background-image: url(../images/02-portfolio-2.jpg);
    background-size: cover;
    flex-basis: 50%;
@@ -136,8 +140,8 @@ p{
 }
 
 .car{
+
    margin: 4%;
-   justify-content: space-evenly;
    background-image: url(../images/02-portfolio-3.jpg);
    background-size: cover;
    flex-basis: 50%;
@@ -146,7 +150,7 @@ p{
 }
 
 .run{
-   justify-content: space-evenly;
+
    background-image: url(../images/02-run-buddy.jpg);
    background-size: cover;
    flex-basis: 50%;
